@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #0f1923;
+  color: #ece8e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #1f2326;
+  border: 1px solid #ff4655;
+  border-radius: 8px;
+  padding: 2.5rem;
+  max-width: 420px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(255, 70, 85, 0.2);
+}
+
+.badge {
+  background-color: #ff4655;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 4px 12px;
+  display: inline-block;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #768079;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.details {
+  background: #0f1923;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.detail-item:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  color: #ff4655;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+.value {
+  font-weight: 600;
+}
+
+button {
+  background-color: #ff4655;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #e03e4d;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+#response-msg {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #00f5a0;
+}
+
+.hidden {
+  display: none;
+}
+.card-img {
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ff4655;
+  margin-bottom: 1.2rem;
+}
+.rsvp-link {
+  display: block;
+  background-color: #ff4655;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.rsvp-link:hover {
+  background-color: #e03e4d;
+  transform: translateY(-2px);
+}
